@@ -16,9 +16,9 @@ function App() {
       console.log(data.Search);
   }
 
-  useEffect(() => {
-    SearchMov(searchItem);
-  }, [])
+  // useEffect(() => {
+  //   SearchMov(searchItem);
+  // }, [])
   
 
   return (
