@@ -3,10 +3,10 @@ import './App.css'
 import searchIcon from './search.svg'
 import Card from './Card';
 
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=d43ae5c1';
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=d43ae5c1';
 
 function App() {
-  const [searchItem, setSearchItem] = useState('apne');
+  const [searchItem, setSearchItem] = useState('Golmaal');
   const [movies, setMovies] = useState([]);
 
   const SearchMov = async (title) => {
