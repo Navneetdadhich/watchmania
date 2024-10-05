@@ -39,6 +39,11 @@ h1 {
   -webkit-text-fill-color: transparent;
   width: fit-content;
 }
+p{
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  color:rgb(180, 249, 222);
+}
 
 .search {
   width: 71%;

@@ -26,7 +26,7 @@ function App() {
   return (
    <div className='app'>
          <h1>Watch-Mania</h1>
-
+          <p>{"( search the movie than click on the search button )"}</p>
          <div className='search'>
           <input  
           placeholder='search here'
@@ -52,8 +52,6 @@ function App() {
               </div>
           )
         }
-
-         
    </div>
   )
 }
