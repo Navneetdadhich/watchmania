@@ -6,7 +6,7 @@ import Card from './Card';
 const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=d43ae5c1';
 
 function App() {
-  const [searchItem, setSearchItem] = useState('Golmaal');
+  const [searchItem, setSearchItem] = useState('golmaal');
   const [movies, setMovies] = useState([]);
 
   const SearchMov = async (title) => {
@@ -18,9 +18,9 @@ function App() {
 
   // hy
 
-  // useEffect(() => {
-  //   SearchMov(searchItem);
-  // }, [])
+  useEffect(() => {
+    SearchMov(searchItem);
+  }, [])
   
 
   return (
